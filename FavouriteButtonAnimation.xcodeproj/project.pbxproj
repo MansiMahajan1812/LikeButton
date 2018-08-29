@@ -14,6 +14,15 @@
 		B11CEB57211B008200056ABD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B11CEB55211B008200056ABD /* LaunchScreen.storyboard */; };
 		B11CEB62211B008200056ABD /* FavouriteButtonAnimationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B11CEB61211B008200056ABD /* FavouriteButtonAnimationTests.swift */; };
 		B11CEB6D211B008300056ABD /* FavouriteButtonAnimationUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B11CEB6C211B008300056ABD /* FavouriteButtonAnimationUITests.swift */; };
+		B14C3AC92126A30300AA4629 /* Constraints+.swift in Sources */ = {isa = PBXBuildFile; fileRef = B14C3AC82126A30300AA4629 /* Constraints+.swift */; };
+		B14C3ACB2126A31500AA4629 /* FaveIcon.swift in Sources */ = {isa = PBXBuildFile; fileRef = B14C3ACA2126A31500AA4629 /* FaveIcon.swift */; };
+		B17C1A80211D5EC50008FF50 /* FaveButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = B17C1A77211D5EC50008FF50 /* FaveButton.swift */; };
+		B17C1A83211D5EC50008FF50 /* Easing.swift in Sources */ = {isa = PBXBuildFile; fileRef = B17C1A7B211D5EC50008FF50 /* Easing.swift */; };
+		B17C1A84211D5EC50008FF50 /* Geometry.swift in Sources */ = {isa = PBXBuildFile; fileRef = B17C1A7C211D5EC50008FF50 /* Geometry.swift */; };
+		B17C1A85211D5EC50008FF50 /* Init.swift in Sources */ = {isa = PBXBuildFile; fileRef = B17C1A7D211D5EC50008FF50 /* Init.swift */; };
+		B17C1A86211D5EC50008FF50 /* Ring.swift in Sources */ = {isa = PBXBuildFile; fileRef = B17C1A7E211D5EC50008FF50 /* Ring.swift */; };
+		B17C1A87211D5EC50008FF50 /* Spark.swift in Sources */ = {isa = PBXBuildFile; fileRef = B17C1A7F211D5EC50008FF50 /* Spark.swift */; };
+		B1901827211B030400496FB5 /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1901826211B030400496FB5 /* TableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +56,15 @@
 		B11CEB68211B008300056ABD /* FavouriteButtonAnimationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FavouriteButtonAnimationUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B11CEB6C211B008300056ABD /* FavouriteButtonAnimationUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavouriteButtonAnimationUITests.swift; sourceTree = "<group>"; };
 		B11CEB6E211B008300056ABD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B14C3AC82126A30300AA4629 /* Constraints+.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "Constraints+.swift"; path = "Source/Constraints+.swift"; sourceTree = SOURCE_ROOT; };
+		B14C3ACA2126A31500AA4629 /* FaveIcon.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FaveIcon.swift; sourceTree = "<group>"; };
+		B17C1A77211D5EC50008FF50 /* FaveButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FaveButton.swift; sourceTree = "<group>"; };
+		B17C1A7B211D5EC50008FF50 /* Easing.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Easing.swift; sourceTree = "<group>"; };
+		B17C1A7C211D5EC50008FF50 /* Geometry.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Geometry.swift; sourceTree = "<group>"; };
+		B17C1A7D211D5EC50008FF50 /* Init.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Init.swift; sourceTree = "<group>"; };
+		B17C1A7E211D5EC50008FF50 /* Ring.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Ring.swift; sourceTree = "<group>"; };
+		B17C1A7F211D5EC50008FF50 /* Spark.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Spark.swift; sourceTree = "<group>"; };
+		B1901826211B030400496FB5 /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +99,7 @@
 				B11CEB60211B008200056ABD /* FavouriteButtonAnimationTests */,
 				B11CEB6B211B008300056ABD /* FavouriteButtonAnimationUITests */,
 				B11CEB4A211B008200056ABD /* Products */,
+				B17C1A76211D5EC50008FF50 /* Source */,
 			);
 			sourceTree = "<group>";
 		};
@@ -103,6 +122,7 @@
 				B11CEB53211B008200056ABD /* Assets.xcassets */,
 				B11CEB55211B008200056ABD /* LaunchScreen.storyboard */,
 				B11CEB58211B008200056ABD /* Info.plist */,
+				B1901826211B030400496FB5 /* TableViewCell.swift */,
 			);
 			path = FavouriteButtonAnimation;
 			sourceTree = "<group>";
@@ -123,6 +143,29 @@
 				B11CEB6E211B008300056ABD /* Info.plist */,
 			);
 			path = FavouriteButtonAnimationUITests;
+			sourceTree = "<group>";
+		};
+		B17C1A76211D5EC50008FF50 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				B17C1A77211D5EC50008FF50 /* FaveButton.swift */,
+				B14C3ACA2126A31500AA4629 /* FaveIcon.swift */,
+				B17C1A79211D5EC50008FF50 /* Helpers */,
+				B17C1A7E211D5EC50008FF50 /* Ring.swift */,
+				B17C1A7F211D5EC50008FF50 /* Spark.swift */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
+		B17C1A79211D5EC50008FF50 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				B14C3AC82126A30300AA4629 /* Constraints+.swift */,
+				B17C1A7B211D5EC50008FF50 /* Easing.swift */,
+				B17C1A7C211D5EC50008FF50 /* Geometry.swift */,
+				B17C1A7D211D5EC50008FF50 /* Init.swift */,
+			);
+			path = Helpers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -259,8 +302,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B17C1A83211D5EC50008FF50 /* Easing.swift in Sources */,
+				B14C3ACB2126A31500AA4629 /* FaveIcon.swift in Sources */,
 				B11CEB4F211B008200056ABD /* ViewController.swift in Sources */,
+				B17C1A85211D5EC50008FF50 /* Init.swift in Sources */,
+				B17C1A80211D5EC50008FF50 /* FaveButton.swift in Sources */,
+				B1901827211B030400496FB5 /* TableViewCell.swift in Sources */,
+				B17C1A84211D5EC50008FF50 /* Geometry.swift in Sources */,
+				B17C1A86211D5EC50008FF50 /* Ring.swift in Sources */,
 				B11CEB4D211B008200056ABD /* AppDelegate.swift in Sources */,
+				B14C3AC92126A30300AA4629 /* Constraints+.swift in Sources */,
+				B17C1A87211D5EC50008FF50 /* Spark.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
